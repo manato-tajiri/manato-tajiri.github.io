@@ -68,6 +68,14 @@
     font-weight: 400;
 }
 
+/* ===== Inline SVG icon (matches Font Awesome fa-fw size) ===== */
+.svg-inline-icon {
+    display: inline-block;
+    width: 1.25em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+
 /* ===== Bilingual content visibility ===== */
 .lang-ja, .lang-en { display: inline; }
 body[data-lang="ja"] .lang-en,

@@ -53,6 +53,7 @@ author:
   github           : "manato-tajiri"
   kaggle           : # Username
   stackoverflow    : # User number
+  zenn             : "manato_boys"  # Zenn username (custom — rendered via inline SVG)
 
   # Social media
   artstation       : # Username

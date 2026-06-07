@@ -48,15 +48,3 @@ At [B-Roca Inc.](https://broca.co.jp/), I lead generative-AI product work, inclu
 <div class="lang-ja" markdown="1">
 [株式会社B-Roca](https://broca.co.jp/) では、自社AIプロダクト・**MCPサーバー開発**・生成AIを活用した **マーケティング支援ツール** の開発を牽引しています。これまでに Almondo Inc.（LLMプロジェクトマネージャー）、Nuco Inc.（ソフトウェアエンジニア。生成AIを用いたWeb開発）の経歴があります。
 </div>
-
-Find me
-======
-{::nomarkdown}
-<ul style="list-style:none;padding:0;margin:0;">
-  <li>📝 <span class="lang-en">Tech writing</span><span class="lang-ja">技術記事</span>: <a href="https://zenn.dev/manato_boys">Zenn (@manato_boys)</a></li>
-  <li>🐙 <span class="lang-en">Code</span><span class="lang-ja">コード</span>: <a href="https://github.com/manato-tajiri">GitHub (@manato-tajiri)</a></li>
-  <li>🐦 <span class="lang-en">Updates</span><span class="lang-ja">最新情報</span>: <a href="https://x.com/tajiri_manato">X (@tajiri_manato)</a></li>
-  <li>💼 <span class="lang-en">Profile</span><span class="lang-ja">職務経歴</span>: <a href="https://jp.linkedin.com/in/manatotajiri">LinkedIn</a></li>
-  <li>✉️ Email: <a href="mailto:tajirimanato11@gmail.com">tajirimanato11@gmail.com</a></li>
-</ul>
-{:/nomarkdown}
