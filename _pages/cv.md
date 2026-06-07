@@ -20,6 +20,7 @@ Experience
 ======
 * **COO**, [B-Roca Inc.](https://broca.co.jp/), Tokyo, Japan — *Jul 2024 – present*
   * AI-driven business development and generative-AI system implementation
+  * Launched [**EntryUp**](https://entryup.jp/) (Jan 2026) — an AI SaaS product / LLM-powered chatbot that lets job candidates ask natural-language questions about recruitment pages ([press release](https://prtimes.jp/main/html/rd/p/000000001.000172359.html))
   * Currently leading the development of marketing-support tools powered by generative AI
 * **Project Manager**, Almondo Inc., Tokyo, Japan — *May 2024 – Mar 2025*
   * Managed projects developing and deploying LLMs with cutting-edge training techniques

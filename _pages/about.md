@@ -42,9 +42,9 @@ Industry
 ======
 
 <div class="lang-en" markdown="1">
-At [B-Roca Inc.](https://broca.co.jp/), I lead generative-AI product work, including in-house AI products, **MCP server development**, and a generative-AI-powered **marketing-support tool**. I previously held roles at Almondo Inc. (LLM project manager) and Nuco Inc. (software developer, generative-AI web apps).
+At [B-Roca Inc.](https://broca.co.jp/), I lead generative-AI product work, including our AI SaaS product [**EntryUp**](https://entryup.jp/) — an LLM-powered chatbot that lets job candidates ask natural-language questions about recruitment pages ([press release, Jan 2026](https://prtimes.jp/main/html/rd/p/000000001.000172359.html)) — along with **MCP server development** and a generative-AI-powered **marketing-support tool**. I previously held roles at Almondo Inc. (LLM project manager) and Nuco Inc. (software developer, generative-AI web apps).
 </div>
 
 <div class="lang-ja" markdown="1">
-[株式会社B-Roca](https://broca.co.jp/) では、自社AIプロダクト・**MCPサーバー開発**・生成AIを活用した **マーケティング支援ツール** の開発を牽引しています。これまでに Almondo Inc.（LLMプロジェクトマネージャー）、Nuco Inc.（ソフトウェアエンジニア。生成AIを用いたWeb開発）の経歴があります。
+[株式会社B-Roca](https://broca.co.jp/) では、AI SaaS プロダクト [**EntryUp**](https://entryup.jp/) — 採用ページ向けの LLM 搭載 AI チャットボット（[プレスリリース 2026年1月](https://prtimes.jp/main/html/rd/p/000000001.000172359.html)）— の開発、**MCPサーバー開発**、生成AIを活用した **マーケティング支援ツール** の開発を牽引しています。これまでに Almondo Inc.（LLMプロジェクトマネージャー）、Nuco Inc.（ソフトウェアエンジニア。生成AIを用いたWeb開発）の経歴があります。
 </div>
