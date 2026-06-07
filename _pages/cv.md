@@ -38,6 +38,11 @@ Research interests
 * Long-context dialogue · information extraction
 * Real-world generative AI · physical AI (interest area)
 
+Awards & Scholarships
+======
+* **JGC-Jikkichi Scholarship** (gift-type, non-repayable; selected by university nomination) — [JGC-Jikkichi Scholarship Foundation](https://www.jgcs.or.jp/), *Apr 2024 – Mar 2025*
+* **Sato Isao International Scholarship** (gift-type, non-repayable, 2-year award period; selected by university nomination) — [Sato Isao International Scholarship Foundation](https://sato-isf.or.jp/), *Apr 2022 – Mar 2024*
+
 Research Projects
 ======
 * [**GENIAC**](https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams/) (Generative AI Accelerator Challenge) — Phase 1, **Team 天元突破 (Tengen Toppa)**, *Mar – May 2024*
@@ -89,6 +94,11 @@ Outreach
 * 選好最適化（DPO / SimPO / KTO / ORPO）
 * 長文脈の対話処理・情報抽出
 * 生成AIの社会実装・フィジカルAI（関心領域）
+
+受賞・奨学金
+======
+* **公益財団法人 [日揮・実吉奨学会](https://www.jgcs.or.jp/) 給付型奨学生**（大学推薦） — *2024年4月 – 2025年3月*
+* **公益財団法人 [佐藤定雄国際奨学財団](https://sato-isf.or.jp/) 給付型奨学生**（大学推薦、給付期間 2 年） — *2022年4月 – 2024年3月*
 
 研究プロジェクト
 ======

@@ -15,6 +15,37 @@ I am a second-year M.S. student in the Department of Informatics at [**The Unive
 [電気通信大学](https://www.uec.ac.jp/) 大学院情報理工学研究科 情報学専攻 修士2年。[稲葉研究室](https://www.inaba.aix.uec.ac.jp/)（稲葉 通将 准教授）に所属しています。並行して [株式会社B-Roca](https://broca.co.jp/) の **COO** として、同社の生成AI関連事業を統括しています。
 </div>
 
+News
+======
+
+<div class="lang-en" markdown="1">
+- **Jun 2026** — Our paper [*"Refining Text Generation for Realistic Conversational Recommendation via DPO"*](/publication/2026-jnlp-long-context-crs) will appear in the [Journal of Natural Language Processing](https://www.anlp.jp/guide/saitaku.html), Vol. 33, No. 2 (Japanese journal article).
+- **Mar 2026** — B-Roca released a [Rich Menu feature](https://prtimes.jp/main/html/rd/p/000000003.000172359.html) for [EntryUp](https://entryup.jp/), turning chat actions into one-tap application / interview bookings.
+- **Jan 2026** — B-Roca launched [EntryUp](https://entryup.jp/), an LLM-powered chatbot for corporate recruitment pages ([press release](https://prtimes.jp/main/html/rd/p/000000001.000172359.html)).
+- **Nov 2025** — Gave an invited [*EMNLP 2025 international-conference report*](/talks/2025-emnlp-report-slud) at the 16th Dialogue System Symposium / 105th SIG-SLUD.
+- **Nov 2025** — Presented our paper [*"Refining Text Generation for Realistic Conversational Recommendation via DPO"*](/publication/2025-emnlp-refining-crs) at **EMNLP 2025 Main Conference** in Suzhou, China. Co-authored an [EMNLP 2025 participation report](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) on the Inaba Lab blog.
+- **Aug 2025** — Our paper was **accepted at EMNLP 2025 Main Conference**.
+- **Apr 2025** — Started M.S. at [UEC](https://www.uec.ac.jp/) Graduate School of Informatics and Engineering ([Inaba Lab](https://www.inaba.aix.uec.ac.jp/)).
+- **Apr 2024** — Awarded the **[JGC-Jikkichi Scholarship](https://www.jgcs.or.jp/)** (gift-type, non-repayable; selected by university nomination; *Apr 2024 – Mar 2025*).
+- **Nov 2024** — Presented a poster on [*DPO-based information extraction for tourist-spot recommendation*](/publication/2024-dss-dpo-tourist) at the Dialogue System Symposium 2024.
+- **Jul 2024** — Joined [B-Roca Inc.](https://broca.co.jp/) as **COO**.
+- **Mar–May 2024** — Participated in [**GENIAC**](https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams/) Phase 1 (national Japanese-LLM development project, METI / NEDO), as a member of Team 天元突破.
+</div>
+
+<div class="lang-ja" markdown="1">
+- **2026年6月** — 論文 [「長い文脈を考慮した対話型推薦のための DPO を用いたテキスト生成の改良」](/publication/2026-jnlp-long-context-crs) が [自然言語処理](https://www.anlp.jp/guide/saitaku.html) 33巻2号に掲載予定（採録決定）。
+- **2026年3月** — B-Roca が [EntryUp](https://entryup.jp/) の [リッチメニュー機能](https://prtimes.jp/main/html/rd/p/000000003.000172359.html) をリリース。チャット内でエントリー／面談予約をワンタップで完結できるように。
+- **2026年1月** — B-Roca が AI SaaS [EntryUp](https://entryup.jp/) を [正式ローンチ](https://prtimes.jp/main/html/rd/p/000000001.000172359.html)。
+- **2025年11月** — 第16回対話システムシンポジウム / 第105回SLUD研究会の「国際会議報告」セッションで [*EMNLP 2025 参加報告*](/talks/2025-emnlp-report-slud) として招待登壇。
+- **2025年11月** — EMNLP 2025 Main Conference（中国・蘇州）で論文 [「Refining Text Generation for Realistic Conversational Recommendation via DPO」](/publication/2025-emnlp-refining-crs) をポスター発表。稲葉研ブログの [EMNLP 2025 参加報告](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) を共同執筆。
+- **2025年8月** — EMNLP 2025 Main Conference に論文が **採択**。
+- **2025年4月** — [電気通信大学](https://www.uec.ac.jp/) 大学院情報理工学研究科 情報学専攻に進学（[稲葉研究室](https://www.inaba.aix.uec.ac.jp/)）。
+- **2024年4月** — **[公益財団法人 日揮・実吉奨学会](https://www.jgcs.or.jp/)** 給付型奨学生に大学推薦で採用（給付期間 2024年4月 〜 2025年3月）。
+- **2024年11月** — 対話システムシンポジウム 2024 で [「対話に基づく観光地推薦のための DPO を用いた情報抽出性能の改善」](/publication/2024-dss-dpo-tourist) をポスター発表。
+- **2024年7月** — [株式会社B-Roca](https://broca.co.jp/) に **COO** として参画。
+- **2024年3〜5月** — 経産省 / NEDO による日本語LLM開発プロジェクト [**GENIAC**](https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams/) 第1期に、チーム「天元突破」のメンバーとして参加。
+</div>
+
 Research
 ======
 

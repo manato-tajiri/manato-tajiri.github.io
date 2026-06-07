@@ -147,14 +147,19 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.jpg"  # /images/profile.jpg
+og_description           : "Tajiri Manato (田尻 愛斗) — M.S. student at The University of Electro-Communications (Inaba Lab). Conversational Recommendation Systems and preference optimization."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Manato Tajiri"
+  links:
+    - "https://github.com/manato-tajiri"
+    - "https://x.com/tajiri_manato"
+    - "https://jp.linkedin.com/in/manatotajiri"
+    - "https://zenn.dev/manato_boys"
+    - "https://www.inaba.aix.uec.ac.jp/"
 
 
 # Analytics

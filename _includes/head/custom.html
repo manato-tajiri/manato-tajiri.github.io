@@ -14,4 +14,13 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Default OG / Twitter image fallback (when page.header.image is not set) -->
+{% if site.og_image %}
+  {% assign og_image_path = site.og_image | prepend: "/images/" | prepend: site.url %}
+  {% unless page.header.image or page.header.overlay_image %}
+    <meta property="og:image" content="{{ og_image_path }}">
+    <meta property="og:image:alt" content="{{ site.name | default: site.title }}">
+  {% endunless %}
+{% endif %}
+
 <!-- end custom head snippets -->
