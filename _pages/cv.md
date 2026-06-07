@@ -33,6 +33,12 @@ Research interests
 * Long-context dialogue · information extraction
 * Real-world generative AI · physical AI (interest area)
 
+Research Projects
+======
+* [**GENIAC**](https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams/) (Generative AI Accelerator Challenge) — Phase 1, **Team 天元突破 (Tengen Toppa)**, *Mar – May 2024*
+  * National Japanese-LLM development project funded by METI / NEDO ("Post-5G Information and Communication Systems Infrastructure Strengthening R&D Program", JPNP20017)
+  * Team led by Daisei Ozaki (尾崎 大晟). Focus: minimizing hallucinations in Japanese LLMs, strengthening logical reasoning via debate data, and releasing a public Mixture-of-Experts (MoE) implementation
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}

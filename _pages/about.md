@@ -25,7 +25,7 @@ I work on aligning **Conversational Recommendation Systems (CRS)** with user pre
 - **Refining text generation** for realistic conversational recommendation — *EMNLP 2025 Main*
 - **Long-context recommendation responses** — *Journal of Natural Language Processing*, Vol. 33, No. 2 (Jun. 2026, to appear)
 
-I am also broadly interested in real-world deployment of generative AI and physical AI.
+I am also broadly interested in real-world deployment of generative AI and physical AI. Earlier in 2024, I participated in [**GENIAC**](https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams/) — the national Japanese-LLM development project funded by METI / NEDO — as a member of Team 天元突破.
 </div>
 
 <div class="lang-ja" markdown="1">
@@ -35,7 +35,7 @@ I am also broadly interested in real-world deployment of generative AI and physi
 - **テキスト生成の精錬** — 現実的な対話文生成（*EMNLP 2025 Main*）
 - **長文脈での推薦応答** — *自然言語処理*, 33巻2号（2026年6月発行予定）
 
-並行して、生成AI の社会実装やフィジカルAI にも関心があります。
+並行して、生成AI の社会実装やフィジカルAI にも関心があります。2024年初頭には、経産省/NEDO による日本語LLM開発プロジェクト [**GENIAC**](https://weblab.t.u-tokyo.ac.jp/geniac_llm/teams/) 第1期に、チーム「天元突破」のメンバーとして参加しました。
 </div>
 
 Industry
