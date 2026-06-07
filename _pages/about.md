@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 <div class="lang-en" markdown="1">
-I am a second-year M.S. student in the [Department of Informatics](https://www.uec.ac.jp/) at **The University of Electro-Communications (UEC)**, where I am a member of [Inaba Laboratory](https://www.inabalab.net/) advised by Assoc. Prof. **Michimasa Inaba**. I also serve as **COO** at [**B-Roca Inc.**](https://broca.co.jp/), where I lead the company's generative-AI work.
+I am a second-year M.S. student in the Department of Informatics at [**The University of Electro-Communications (UEC)**](https://www.uec.ac.jp/), where I am a member of [Inaba Laboratory](https://www.inaba.aix.uec.ac.jp/) advised by Assoc. Prof. **Michimasa Inaba**. I also serve as **COO** at [**B-Roca Inc.**](https://broca.co.jp/), where I lead the company's generative-AI work.
 </div>
 
 <div class="lang-ja" markdown="1">
-電気通信大学 大学院情報理工学研究科 [情報学専攻](https://www.uec.ac.jp/) 修士2年。[稲葉研究室](https://www.inabalab.net/)（稲葉 通将 准教授）に所属しています。並行して [株式会社B-Roca](https://broca.co.jp/) の **COO** として、同社の生成AI関連事業を統括しています。
+[電気通信大学](https://www.uec.ac.jp/) 大学院情報理工学研究科 情報学専攻 修士2年。[稲葉研究室](https://www.inaba.aix.uec.ac.jp/)（稲葉 通将 准教授）に所属しています。並行して [株式会社B-Roca](https://broca.co.jp/) の **COO** として、同社の生成AI関連事業を統括しています。
 </div>
 
 Research

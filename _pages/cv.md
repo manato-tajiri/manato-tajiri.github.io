@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* M.S., Department of Informatics, **The University of Electro-Communications (UEC)**, Apr 2025 – Mar 2027 *(in progress)*
+* M.S., Department of Informatics, [**The University of Electro-Communications (UEC)**](https://www.uec.ac.jp/), Apr 2025 – Mar 2027 *(in progress)*
   * Graduate School of Informatics and Engineering
-  * Inaba Laboratory (Assoc. Prof. Michimasa Inaba)
-* B.Eng., Department of Media Informatics, School of Informatics and Engineering, **The University of Electro-Communications (UEC)**, Apr 2021 – Mar 2025
+  * [Inaba Laboratory](https://www.inaba.aix.uec.ac.jp/) (Assoc. Prof. Michimasa Inaba)
+* B.Eng., Department of Media Informatics, School of Informatics and Engineering, [**The University of Electro-Communications (UEC)**](https://www.uec.ac.jp/), Apr 2021 – Mar 2025
 
 Experience
 ======
