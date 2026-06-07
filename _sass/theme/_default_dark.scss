@@ -3,17 +3,17 @@
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #6a8cc8;   /* lighter navy for dark mode contrast */
-$gray                       : #9aa1b1;
+$primary-color              : #0ea1c5;
+$gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #0f1626;
-$background-light           : mix(#fff, $background, 12%);
-$background-lighter         : mix(#fff, $background, 22%);
-$text                       : #eef2f8;
-$link                       : $primary-color;
+$background                 : #474747;
+$background-light           : mix(#fff, $background, 80%);
+$background-lighter         : mix(#fff, $background, 90%);
+$text                       : #ffffff;
+$link                       : #0ea1c5;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 
@@ -53,4 +53,3 @@ html[data-theme="dark"] {
     --global-text-color-light           : #f3f3f3;
     --global-thead-color                : #{$background-lighter};
 }
-
