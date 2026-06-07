@@ -11,6 +11,19 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% if post.title_ja %}
+  {% capture title %}<span class="lang-en">{{ title }}</span><span class="lang-ja">{{ post.title_ja }}</span>{% endcapture %}
+{% endif %}
+{% if post.citation_ja %}
+  {% capture citation_block %}<span class="lang-en">{{ citation_block }}</span><span class="lang-ja">{{ post.citation_ja }}</span>{% endcapture %}
+{% else %}
+  {% assign citation_block = post.citation %}
+{% endif %}
+{% if post.venue_ja %}
+  {% capture venue_block %}<span class="lang-en">{{ post.venue }}</span><span class="lang-ja">{{ post.venue_ja }}</span>{% endcapture %}
+{% else %}
+  {% assign venue_block = post.venue %}
+{% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -39,9 +52,9 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ post.type }}, <i>{{ venue_block }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p><span class="lang-en">Published in</span><span class="lang-ja">掲載先:</span> <i>{{ venue_block }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -53,31 +66,31 @@
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}<br /><a href="{{ post.paperurl }}"><span class="lang-en">Download Paper</span><span class="lang-ja">論文ダウンロード</span></a> | <a href="{{ post.slidesurl }}"><span class="lang-en">Download Slides</span><span class="lang-ja">スライドダウンロード</span></a> | <a href="{{ post.bibtexurl }}"><span class="lang-en">Download Bibtex</span><span class="lang-ja">BibTeX ダウンロード</span></a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}<br /><a href="{{ post.paperurl }}"><span class="lang-en">Download Paper</span><span class="lang-ja">論文ダウンロード</span></a> | <a href="{{ post.slidesurl }}"><span class="lang-en">Download Slides</span><span class="lang-ja">スライドダウンロード</span></a></p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}<br /><a href="{{ post.paperurl }}"><span class="lang-en">Download Paper</span><span class="lang-ja">論文ダウンロード</span></a> | <a href="{{ post.bibtexurl }}"><span class="lang-en">Download Bibtex</span><span class="lang-ja">BibTeX ダウンロード</span></a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}<br /><a href="{{ post.paperurl }}"><span class="lang-en">Download Paper</span><span class="lang-ja">論文ダウンロード</span></a></p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}<br /><a href="{{ post.slidesurl }}"><span class="lang-en">Download Slides</span><span class="lang-ja">スライドダウンロード</span></a> | <a href="{{ post.bibtexurl}}"><span class="lang-en">Download Bibtex</span><span class="lang-ja">BibTeX ダウンロード</span></a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}<br /><a href="{{ post.slidesurl }}"><span class="lang-en">Download Slides</span><span class="lang-ja">スライドダウンロード</span></a></p>
     {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}<br /><a href="{{ post.bibtexurl }}"><span class="lang-en">Download Bibtex</span><span class="lang-ja">BibTeX ダウンロード</span></a></p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+      <p><span class="lang-en">Recommended citation:</span><span class="lang-ja">推奨引用:</span> {{ citation_block }}</p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.paperurl }}"><span class="lang-en">Download Paper</span><span class="lang-ja">論文ダウンロード</span></a> | <a href="{{ post.bibtexurl }}"><span class="lang-en">Download Bibtex</span><span class="lang-ja">BibTeX ダウンロード</span></a></p>
     {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p><a href="{{ post.paperurl }}"><span class="lang-en">Download Paper</span><span class="lang-ja">論文ダウンロード</span></a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.slidesurl }}"><span class="lang-en">Download Slides</span><span class="lang-ja">スライドダウンロード</span></a> | <a href="{{ post.bibtexurl }}"><span class="lang-en">Download Bibtex</span><span class="lang-ja">BibTeX ダウンロード</span></a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><a href="{{ post.slidesurl }}"><span class="lang-en">Download Slides</span><span class="lang-ja">スライドダウンロード</span></a></p>
     {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.bibtexurl }}"><span class="lang-en">Download Bibtex</span><span class="lang-ja">BibTeX ダウンロード</span></a></p>
     {% endif %}
 
   </article>

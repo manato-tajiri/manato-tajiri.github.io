@@ -11,6 +11,24 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% if post.title_ja %}
+  {% capture title %}<span class="lang-en">{{ title }}</span><span class="lang-ja">{{ post.title_ja }}</span>{% endcapture %}
+{% endif %}
+{% if post.type_ja %}
+  {% capture type_block %}<span class="lang-en">{{ post.type }}</span><span class="lang-ja">{{ post.type_ja }}</span>{% endcapture %}
+{% else %}
+  {% assign type_block = post.type %}
+{% endif %}
+{% if post.venue_ja %}
+  {% capture venue_block %}<span class="lang-en">{{ post.venue }}</span><span class="lang-ja">{{ post.venue_ja }}</span>{% endcapture %}
+{% else %}
+  {% assign venue_block = post.venue %}
+{% endif %}
+{% if post.location_ja %}
+  {% capture location_block %}<span class="lang-en">{{ post.location }}</span><span class="lang-ja">{{ post.location_ja }}</span>{% endcapture %}
+{% else %}
+  {% assign location_block = post.location %}
+{% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -36,7 +54,7 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
+    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ type_block }}, {{ venue_block }},  {{ location_block }} {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>

@@ -24,10 +24,14 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Manato Tajiri"
+  name_ja          : "田尻 愛斗"
   pronouns         : # example: "she/her"
   bio              : "M.S. student at UEC (Inaba Lab). COO at B-Roca Inc. Conversational Recommendation × DPO."
+  bio_ja           : "電気通信大学 修士2年（稲葉研究室）。株式会社B-Roca COO。対話推薦システム × DPO。"
   location         : "Tokyo, Japan"
+  location_ja      : "東京, 日本"
   employer         : "The University of Electro-Communications"
+  employer_ja      : "電気通信大学"
   uri              : # URL
   email            : "tajirimanato11@gmail.com"
 
@@ -85,11 +89,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Journal Articles'
+    title: '<span class="lang-en">Journal Articles</span><span class="lang-ja">論文誌</span>'
   conferences:
-    title: 'International Conferences'
+    title: '<span class="lang-en">International Conferences</span><span class="lang-ja">国際会議</span>'
   domestic:
-    title: 'Domestic Conferences &amp; Workshops'
+    title: '<span class="lang-en">Domestic Conferences &amp; Workshops</span><span class="lang-ja">国内会議・研究会</span>'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
