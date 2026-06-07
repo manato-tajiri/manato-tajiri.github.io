@@ -15,12 +15,12 @@ Education
 ======
 * M.S., Department of Informatics, [**The University of Electro-Communications (UEC)**](https://www.uec.ac.jp/), Apr 2025 – Mar 2027 *(in progress)*
   * Graduate School of Informatics and Engineering
-  * [Inaba Laboratory](https://www.inaba.aix.uec.ac.jp/) (Assoc. Prof. Michimasa Inaba)
+  * [**Inaba Laboratory**](https://www.inaba.aix.uec.ac.jp/) (Assoc. Prof. Michimasa Inaba)
 * B.Eng., Department of Media Informatics, School of Informatics and Engineering, [**The University of Electro-Communications (UEC)**](https://www.uec.ac.jp/), Apr 2021 – Mar 2025
 
 Experience
 ======
-* **COO**, [B-Roca Inc.](https://broca.co.jp/), Tokyo, Japan — *Jul 2024 – present*
+* **COO**, [**B-Roca Inc.**](https://broca.co.jp/), Tokyo, Japan — *Jul 2024 – present*
   * AI-driven business development and generative-AI system implementation
   * Launched [**EntryUp**](https://entryup.jp/) — an AI SaaS / LLM-powered chatbot for corporate recruitment pages
     * *Jan 2026* — [initial release](https://prtimes.jp/main/html/rd/p/000000001.000172359.html)
@@ -33,15 +33,16 @@ Experience
 
 Research interests
 ======
-* Conversational Recommendation Systems (CRS)
-* Preference Optimization (DPO / SimPO / KTO / ORPO)
-* Long-context dialogue · information extraction
-* Real-world generative AI · physical AI (interest area)
+* Natural Language Processing
+* Dialogue Systems
+* Recommendation Systems
+* Dialogue Summarization
+* (broader interest) Conversational Recommendation Systems (CRS) · Real-world generative AI · Physical AI
 
 Awards & Scholarships
 ======
-* **JGC-Jikkichi Scholarship** (gift-type, non-repayable; selected by university nomination) — [JGC-Jikkichi Scholarship Foundation](https://www.jgcs.or.jp/), *Apr 2024 – Mar 2025*
-* **Sato Isao International Scholarship** (gift-type, non-repayable, 2-year award period; selected by university nomination) — [Sato Isao International Scholarship Foundation](https://sato-isf.or.jp/), *Apr 2022 – Mar 2024*
+* **JGC-Jikkichi Scholarship** (gift-type, non-repayable; selected by university nomination) — [**JGC-Jikkichi Scholarship Foundation**](https://www.jgcs.or.jp/), *Apr 2024 – Mar 2025*
+* **Sato Isao International Scholarship** (gift-type, non-repayable, 2-year award period; selected by university nomination) — [**Sato Isao International Scholarship Foundation**](https://sato-isf.or.jp/), *Apr 2022 – Mar 2024*
 
 Research Projects
 ======
@@ -63,7 +64,7 @@ Talks
 
 Outreach
 ======
-* ["EMNLP 2025 参加報告"](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) — Inaba Lab Blog, *Nov 2025*. Co-authored lab blog post reporting on EMNLP 2025 (Suzhou, China). I contributed the section on our own paper "Refining Text Generation for Realistic Conversational Recommendation via DPO".
+* [*"EMNLP 2025 参加報告"*](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) — [**Inaba Lab**](https://www.inaba.aix.uec.ac.jp/) Blog, *Nov 2025*. Co-authored lab blog post reporting on EMNLP 2025 (Suzhou, China). I contributed the section on our own paper *"Refining Text Generation for Realistic Conversational Recommendation via DPO"*.
 
 </div>
 
@@ -72,12 +73,12 @@ Outreach
 学歴
 ======
 * 修士課程, 情報学専攻, [**電気通信大学**](https://www.uec.ac.jp/) 大学院情報理工学研究科, 2025年4月 – 2027年3月（在学中）
-  * [稲葉研究室](https://www.inaba.aix.uec.ac.jp/)（稲葉 通将 准教授）
+  * [**稲葉研究室**](https://www.inaba.aix.uec.ac.jp/)（稲葉 通将 准教授）
 * 学士, 情報理工学域 メディア情報学科, [**電気通信大学**](https://www.uec.ac.jp/), 2021年4月 – 2025年3月
 
 職歴
 ======
-* **COO**, [株式会社B-Roca](https://broca.co.jp/), 東京 — *2024年7月 – 現在*
+* **COO**, [**株式会社B-Roca**](https://broca.co.jp/), 東京 — *2024年7月 – 現在*
   * AIを活用した事業開発・生成AIシステムの実装
   * [**EntryUp**](https://entryup.jp/) のローンチ — 企業の採用ページ向けAI SaaS／LLM 搭載チャットボット
     * *2026年1月* — [正式リリース](https://prtimes.jp/main/html/rd/p/000000001.000172359.html)
@@ -90,10 +91,11 @@ Outreach
 
 研究テーマ
 ======
-* 対話推薦システム（CRS）
-* 選好最適化（DPO / SimPO / KTO / ORPO）
-* 長文脈の対話処理・情報抽出
-* 生成AIの社会実装・フィジカルAI（関心領域）
+* 自然言語処理
+* 対話システム
+* 推薦システム
+* 対話要約
+* （関連領域）推薦対話システム（CRS）・生成AI の社会実装・フィジカルAI
 
 受賞・奨学金
 ======
@@ -120,6 +122,6 @@ Outreach
 
 寄稿・アウトリーチ
 ======
-* [「EMNLP 2025 参加報告」](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) — 稲葉研究室 ブログ, *2025年11月*。EMNLP 2025（中国・蘇州）の参加報告として研究室メンバーで共同執筆。私は自分の発表論文「Refining Text Generation for Realistic Conversational Recommendation via DPO」のセクションを担当。
+* [*「EMNLP 2025 参加報告」*](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) — [**稲葉研究室**](https://www.inaba.aix.uec.ac.jp/) ブログ, *2025年11月*。EMNLP 2025（中国・蘇州）の参加報告として研究室メンバーで共同執筆。私は自分の発表論文 *「Refining Text Generation for Realistic Conversational Recommendation via DPO」* のセクションを担当。
 
 </div>

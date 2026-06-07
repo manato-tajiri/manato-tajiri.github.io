@@ -26,8 +26,8 @@ author:
   name             : "Manato Tajiri"
   name_ja          : "田尻 愛斗"
   pronouns         : # example: "she/her"
-  bio              : "M.S. student at UEC (Inaba Lab). COO at B-Roca Inc. Conversational Recommendation × DPO."
-  bio_ja           : "電気通信大学 修士2年（稲葉研究室）。株式会社B-Roca COO。対話推薦システム × DPO。"
+  bio              : "M.S. student at UEC (Inaba Lab). COO at B-Roca Inc. Conversational Recommendation Systems · Dialogue Systems · Recommendation Systems · Dialogue Summarization."
+  bio_ja           : "電気通信大学 修士2年（稲葉研究室）。株式会社B-Roca COO。推薦対話システム・対話システム・推薦システム・対話要約。"
   location         : "Tokyo, Japan"
   location_ja      : "東京, 日本"
   employer         : "The University of Electro-Communications"
@@ -228,15 +228,9 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
+# Collections used by this site
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -244,19 +238,8 @@ collections:
     permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+# Defaults applied per collection
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -264,15 +247,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -282,15 +256,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
