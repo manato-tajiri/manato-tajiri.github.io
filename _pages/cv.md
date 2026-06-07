@@ -56,6 +56,10 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
 
+Outreach
+======
+* ["EMNLP 2025 参加報告"](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) — Inaba Lab Blog, *Nov 2025*. Co-authored lab blog post reporting on EMNLP 2025 (Suzhou, China). I contributed the section on our own paper "Refining Text Generation for Realistic Conversational Recommendation via DPO".
+
 </div>
 
 <div class="lang-ja" markdown="1">
@@ -103,5 +107,9 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+
+寄稿・アウトリーチ
+======
+* [「EMNLP 2025 参加報告」](https://www.inaba.aix.uec.ac.jp/blog/EMNLP2025) — 稲葉研究室 ブログ, *2025年11月*。EMNLP 2025（中国・蘇州）の参加報告として研究室メンバーで共同執筆。私は自分の発表論文「Refining Text Generation for Realistic Conversational Recommendation via DPO」のセクションを担当。
 
 </div>
